@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid rgb(43, 226, 110);
+
+    .menu {
+        display: flex;
+        justify-content: center;
+
+        li {
+            list-style: none;
+            margin-right: 30px;
+        }
+    }
+
+    .op {
+        border-radius: 20px;
+        border: 2px solid rgb(0, 255, 110);
+        width: 100px;
+    }
+}
+
+nav {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    img {
+        border-radius: 5%;
+    }
+}
+
+section {
+    background-color: rgba(127, 255, 221, 0.434);
+    margin-top: 50px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    p {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}
+
+h1 {
+    text-align: start;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.er {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    gap: 10px;
+    padding: 20px;
+
+    .ui {
+        border-radius: 20px;
+        border: 2px solid blue;
+
+        img {
+            height: 60%;
+            border-radius: 15%;
+        }
+
+        .as {
+            border-radius: 20px;
+            width: 80px;
+            background-color: bisque;
+            color: blue;
+        }
+    }
+}
+
+.df {
+    border-radius: 20px;
+    border: 2px solid blue;
+    margin: 0 auto;
+    width: 110px;
+    list-style: none;
+}
+
+.gh {
+    background-color: rgba(127, 255, 221, 0.434);
+    margin-top: 100px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    p {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}
+
+footer {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    background-color: darkgray;
+    h1 {
+        font-size: medium;
+    }
+    li{
+        list-style: none;
+    }
+}
