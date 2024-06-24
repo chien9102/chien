@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+body {
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2024/04/04/14/56/sunrise-8675236_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 70%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    .left {
+        img {
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+    }
+    .right {
+        background-color: rgba(0, 0, 0,0.5);
+        padding: 40px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        color: white;
+        h1 {
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+            margin-top: 10px;
+            .form-group {
+                input,select {
+                    width: 100%;
+                    padding: 5px;
+                    margin-top: 5px;
+                }
+                input[type="checkbox"] {
+                    width: auto;
+                }
+                input[type="radio"] {
+                    width: auto;
+                    margin-left: 10px;
+                }
+                textarea {
+                    width: 100%;
+                    margin-top: 5px;
+                    padding: 5px;
+                }
+                .form-img {
+                    margin-top: 5px;
+                }
+            }
+        }
+        .link {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 50px;
+            button {
+                padding: 5px 10px;
+                border: none;
+            }
+            button:nth-child(1) {
+                background-color: cornflowerblue;
+            }
+            button:nth-child(2) {
+                background-color: green;
+            }
+            button:nth-child(3) {
+                background-color:blueviolet;
+            }
+        }
+    }
+}
