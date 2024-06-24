@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height:100%;
+}
+body {
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2024/04/04/14/56/sunrise-8675236_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table ,th ,td {
+    border: 2px solid violet;
+    background-color: white;
+    padding: 5px;
+}
+
+td {
+    button:nth-child(1){
+       padding: 5px 10px;
+       border: none;
+       color: white;
+       background-color: blue;
+    }
+    button:nth-child(2){
+        padding: 5px 10px;
+        border: none;
+        color: white;
+        background-color:red;
+     }
+}
